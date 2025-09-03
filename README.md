@@ -1,10 +1,13 @@
-# User prompt
+# Cocotb triggers
+[Cocotb Documentation](https://docs.cocotb.org/en/stable/triggers.html#timing) is not very clear about how the Triggers/Timers work. So I made this example hoping it will help others. I prompted an LLM to explain the example (sorry, not enough time to write the tutorial).
+
+## User prompt
 
 When I wait for `RisingEdge()`, is it after or before the signals evaluation? For example, are the flip-flops already updated?
 
 ---
 
-# Assistant answer
+## Assistant answer
 
 Awesome example — it hits *exactly* the places where cocotb’s triggers interact with the HDL scheduler. Below is a didactic “forum-style” walkthrough of:
 
