@@ -3,7 +3,7 @@
 
 ## User prompt
 
-When I wait for `RisingEdge()`, is it after or before the signals evaluation? For example, are the flip-flops already updated?
+Explain to me, in depth, how each trigger work. NextTimeStep, ReadOnly, RisingEdge and ReadWrite. Explain to me in a tutorial/forum way. Use my example and explain what happened in the example. Explain in detail the simulation phases.
 
 ---
 
